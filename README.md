@@ -5,7 +5,7 @@ This README file contains information and instructions regarding the setup of ou
 
 The aim of our code is to try to forecast customer spending in the fourth quarter based off features provided through the datasets from Synchrony, as well as make attempt at classifying accounts that may need credit line increases based off the predicted spendings, while also factoring in various risk factors associated with an account. 
 
-## Unlisted YouTube Presentation Link :
+## Unlisted YouTube Presentation Link : https://uofi.box.com/s/41ahsdyfdcl43plhnstsxg98ry3ft5tk
 
 # Libraries utilized:
  - pandas
