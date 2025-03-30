@@ -1,10 +1,11 @@
 # ILLINOIS-DATATHON-2025---THE-MEOWS
-## Unlisted YouTube Presentation:
-  Presentation Link - 
+
 
 This README file contains information and instructions regarding the setup of our code, the data our models used, and the commands used to execute our code. 
 
 The aim of our code is to try to forecast customer spending in the fourth quarter based off features provided through the datasets from Synchrony, as well as make attempt at classifying accounts that may need credit line increases based off the predicted spendings, while also factoring in various risk factors associated with an account. 
+
+## Unlisted YouTube Presentation Link :
 
 # Libraries utilized:
  - pandas
@@ -69,6 +70,7 @@ https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html
 https://www.geeksforgeeks.org/pandas-series-dt-date/
 https://www.statology.org/dickey-fuller-test-python/
 https://www.statsmodels.org/dev/generated/statsmodels.tsa.ar_model.AutoReg.html
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
 
 
 # Data 
