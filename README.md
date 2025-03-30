@@ -1,4 +1,6 @@
 # ILLINOIS-DATATHON-2025---THE-MEOWS
+## Unlisted YouTube Presentation:
+  Presentation Link - 
 
 This README file contains information and instructions regarding the setup of our code, the data our models used, and the commands used to execute our code. 
 
@@ -103,13 +105,9 @@ The other prediction model, the xgb model, utilized the Transaction Data, World 
 - For the AR_model .... 
 
 
+The next part of the project involves the classification model... 
 
 
-
-
-
-## Unlisted YouTube Presentation:
-  Presentation Link - 
 
 
 
