@@ -14,51 +14,51 @@ The aim of our code is to try to forecast customer spending in the fourth quarte
  - xgboost
 
 ## Functions involved:
-Pandas
-pd.read_csv()
-pd.to_datetime()
-DataFrame.groupby()
-DataFrame.sum()
-DataFrame.reset_index()
-DataFrame.rename()
-DataFrame.merge()
-DataFrame.fillna()
-DataFrame.drop()
-DataFrame.isna()
-DataFrame.describe()
-DataFrame.sort_values()
-DataFrame.set_index()
-DataFrame.resample()
+- # Pandas
+-  pd.read_csv()
+- pd.to_datetime()
+- DataFrame.groupby()
+- DataFrame.sum()
+- DataFrame.reset_index()
+- DataFrame.rename()
+- DataFrame.merge()
+- DataFrame.fillna()
+- DataFrame.drop()
+- DataFrame.isna()
+- DataFrame.describe()
+- DataFrame.sort_values()
+- DataFrame.set_index()
+- DataFrame.resample()
 
-Numpy
-np.sqrt()
+- # Numpy:
+- np.sqrt()
 
-Scikit-learn
-train_test_split()
-mean_squared_error()
-r2_score()
-mean_absolute_error()
-RandomizedSearchCV()
+- # Scikit-learn:
+- train_test_split()
+- mean_squared_error()
+- r2_score()
+- mean_absolute_error()
+- RandomizedSearchCV()
 
-XGBoost
-XGBRegressor()
+- # XGBoost:
+- XGBRegressor()
 
-SciPy
-stats.randint()
-stats.uniform()
+- # SciPy:
+- stats.randint()
+- stats.uniform()
 
-Matplotlib
-plt.scatter()
-plt.plot()
-plt.show()
+- # Matplotlib:
+- plt.scatter()
+- plt.plot()
+- plt.show()
 
-Seaborn
-sns.histplot()
+- # Seaborn:
+- sns.histplot()
 
-Statsmodels
-adfuller()
-AutoReg()
-smf.ols()
+- # Statsmodels:
+- adfuller()
+- AutoReg()
+- smf.ols()
 
 ## Links to documentation of functions
 https://xgboost.readthedocs.io/en/latest/python/python_api.html#xgboost.XGBRegressor
