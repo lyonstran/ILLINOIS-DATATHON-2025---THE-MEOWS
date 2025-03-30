@@ -1,10 +1,10 @@
-## ILLINOIS-DATATHON-2025---THE-MEOWS
+# ILLINOIS-DATATHON-2025---THE-MEOWS
 
 This README file contains information and instructions regarding the setup of our code, the data our models used, and the commands used to execute our code. 
 
 The aim of our code is to try to forecast customer spending in the fourth quarter based off features provided through the datasets from Synchrony, as well as make attempt at classifying accounts that may need credit line increases based off the predicted spendings, while also factoring in various risk factors associated with an account. 
 
-## Libraries utilized:
+# Libraries utilized:
  - pandas
  - numpy
  - matplotlib
@@ -13,8 +13,8 @@ The aim of our code is to try to forecast customer spending in the fourth quarte
  - sklearn
  - xgboost
 
-## Functions involved:
-- # Pandas
+# Functions involved:
+- ## Pandas
 -  pd.read_csv()
 - pd.to_datetime()
 - DataFrame.groupby()
@@ -30,32 +30,32 @@ The aim of our code is to try to forecast customer spending in the fourth quarte
 - DataFrame.set_index()
 - DataFrame.resample()
 
-- # Numpy:
+- ## Numpy:
 - np.sqrt()
 
-- # Scikit-learn:
+- ## Scikit-learn:
 - train_test_split()
 - mean_squared_error()
 - r2_score()
 - mean_absolute_error()
 - RandomizedSearchCV()
 
-- # XGBoost:
+- ## XGBoost:
 - XGBRegressor()
 
-- # SciPy:
+- ## SciPy:
 - stats.randint()
 - stats.uniform()
 
-- # Matplotlib:
+- ## Matplotlib:
 - plt.scatter()
 - plt.plot()
 - plt.show()
 
-- # Seaborn:
+- ## Seaborn:
 - sns.histplot()
 
-- # Statsmodels:
+- ## Statsmodels:
 - adfuller()
 - AutoReg()
 - smf.ols()
@@ -69,7 +69,7 @@ https://www.statology.org/dickey-fuller-test-python/
 https://www.statsmodels.org/dev/generated/statsmodels.tsa.ar_model.AutoReg.html
 
 
-## Data 
+# Data 
 As mentioned before, all the csv datasets utilized in this project was provided by Synchrony through the datathon event. Here are all the datasets given and as titled in a mapping document also provided to do this project: 
 
 account_dim_20250325.csv -> Card Holder Account 
@@ -83,7 +83,7 @@ wrld_stor_tran_fact_20250325.csv -> World Transactions Data
 
 *we also renamed the files locally for our own ease of access*
 
-# Data used and it's utilization
+## Data used and it's utilization
 For this project, we made two models to predict customer spending and made one classification model. 
 One the prediction models, the AR_model (Auto Regressive model), utilized only one dataset which was the Transaction dataset. 
 The other prediction model, the xgb model, utilized the Transaction Data, World Transactions Data, Account Level Feature data.
