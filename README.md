@@ -76,14 +76,14 @@ https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.Random
 # Data 
 As mentioned before, all the csv datasets utilized in this project was provided by Synchrony through the datathon event. Here are all the datasets given and as titled in a mapping document also provided to do this project: 
 
-account_dim_20250325.csv -> Card Holder Account 
-statement_fact_20250325.csv -> Statement Data
-transaction_fact_20250325.csv -> Transaction Data
-syf_id_20250325.csv -> Customer Identifier
-rams_batch_cur_20250325.csv -> Account Level Features
-fraud_claim_case_20250325.csv -> Fraudulent Activities reported at customer
-fraud_claim_tran_20250325.csv -> Fraudlent Transactions reported on a given account
-wrld_stor_tran_fact_20250325.csv -> World Transactions Data
+- account_dim_20250325.csv -> Card Holder Account 
+- statement_fact_20250325.csv -> Statement Data
+- transaction_fact_20250325.csv -> Transaction Data
+- syf_id_20250325.csv -> Customer Identifier
+- rams_batch_cur_20250325.csv -> Account Level Features
+- fraud_claim_case_20250325.csv -> Fraudulent Activities reported at customer
+- fraud_claim_tran_20250325.csv -> Fraudlent Transactions reported on a given account
+- wrld_stor_tran_fact_20250325.csv -> World Transactions Data
 
 *we also renamed the files locally for our own ease of access*
 
